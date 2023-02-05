@@ -1,0 +1,39 @@
+.card-item-img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+.card-item-details {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+
+.card-item-header{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item-title{
+    font-size: .8rem;
+}
+
+.card-item-desc{
+    display: flex;
+    justify-content: space-between;
+}
+.card-item-cost{
+    font-size: .7rem;
+}
+.card-item-desc-text{
+    color: gray;
+    font-size: .9rem;
+}
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}

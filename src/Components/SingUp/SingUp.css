@@ -1,0 +1,86 @@
+.container {
+    margin-top: 2rem;
+}
+
+.signup-container {
+
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    background-color: #fff;
+
+}
+
+.container,
+.signup-container,
+.signup-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-header {
+    margin-bottom: 1rem;
+    /* border-bottom: 1px solid gray; */
+}
+
+.signup-header-title {
+    margin: 0;
+}
+
+.signup-header-text {
+    color: gray;
+}
+
+/* signup form */
+.signup-form-username {}
+
+.form-field {
+    margin: 10px 0;
+}
+
+.full-form-field input {
+    width: 97.5%;
+}
+
+input {
+    padding: 5px;
+    font-size: 1rem;
+    /* border-radius: 10px; */
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input:focus{
+    outline:none;
+    border: 1px solid #0aad0a ;
+}
+.signup-form-username {
+    display: flex;
+    gap: 1rem;
+}
+
+.signup-form-gender-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.gender-option{
+    flex: 35%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gender-option label{
+    flex-basis: 75%;
+    cursor: pointer;
+
+}
+.gender-option input{
+    flex-basis: 25%;
+    cursor: pointer;
+
+}

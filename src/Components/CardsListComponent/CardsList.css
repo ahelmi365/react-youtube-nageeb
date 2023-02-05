@@ -1,0 +1,27 @@
+.card-list-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 5%;
+
+}
+
+.card-item-container {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    background-color: #fff;
+
+
+}
+
+
+.card-item-container:hover {
+    border: 1px solid #0aad0a;
+    /* box-shadow: 0 0 5px 1px; */
+    box-shadow: gray 0px 3px 8px;
+
+}

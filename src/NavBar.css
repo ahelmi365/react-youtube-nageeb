@@ -1,0 +1,44 @@
+.navbar-container{
+    padding: 7px;
+    background-color: aliceblue;
+
+    position: sticky;
+    top: 0;
+
+    box-shadow: 0 0 5px 1px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.navbar-title h1{
+    font-size: 1.5rem;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #0aad0a;
+}
+
